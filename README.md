@@ -88,7 +88,73 @@ Developed a **Customer Churn Prediction Framework** that accurately identifies c
 
 ---
 
-# 💼 Project 2 – HR Analytics: Employee Attrition Dashboard  
+# 🛒 Project 2 – E-commerce Return Rate Reduction Analysis  
+
+### 🔍 Overview  
+This project analyzes e-commerce product returns to identify patterns and causes behind product returns.  
+The insights help reduce return rates and improve **customer satisfaction**.
+
+---
+
+### 🎯 Objectives  
+- Understand reasons for product returns.  
+- Identify categories and locations with high return rates.  
+- Recommend strategies to reduce return volume.  
+
+---
+
+### 🧠 Tools & Techniques  
+| Tool | Purpose |
+|------|----------|
+| Power BI | Dashboard and Visualization |
+| Excel | Data preprocessing |
+| Python (optional) | Data cleaning & feature engineering |
+
+---
+
+### 📁 Dataset  
+**Name:** `ecommerce_returns_synthetic_data.csv`  
+**Fields:** order_id, order_date, product_category, customer_segment, customer_location, return_reason  
+**Engineered Fields:**  
+- `return_flag` → 1 = Returned, 0 = Not Returned  
+- `order_month` → Month-Year derived from `order_date`
+
+---
+
+### 📊 Dashboard Highlights  
+- KPI Cards: Total Orders, Total Returns, Return Rate (%)  
+- Visuals:  
+  - Bar chart – Returns by Category  
+  - Pie chart – Return Reasons  
+  - Line chart – Monthly Trends  
+  - Map – Geographic Return Distribution  
+
+---
+
+### 🔍 Insights  
+- High return rates in specific categories and regions.  
+- Top return reasons: Defective Items, Wrong Product, Quality Issues.  
+- Seasonal spikes in return volumes.  
+
+---
+
+### ✅ Recommendations  
+- Focus on quality improvements in high-return categories.  
+- Improve packaging & logistics.  
+- Enhance product descriptions and size guides.  
+- Adjust return policies for high-return regions.  
+
+---
+
+### 📦 Deliverables  
+- 📊 `E-commerce_Return_Rate_Analysis.pbix`  
+- 📄 `E-commerce_Return_Rate_Analysis_Report.docx`  
+- 📁 Dataset: `ecommerce_returns_synthetic_data.csv`  
+- 🖼 Dashboard Screenshot  
+
+---
+
+# 💼 Project 3 – HR Analytics: Employee Attrition Dashboard  
 
 ### 🧾 Overview  
 This project analyzes **employee attrition** patterns to identify which roles, departments, or conditions (like overtime) are most prone to resignation. The result is an interactive **Power BI Dashboard** for HR decision-making.
@@ -128,65 +194,6 @@ This project analyzes **employee attrition** patterns to identify which roles, d
 - 📊 `HR_Attrition_Dashboard.pbix`  
 - 📸 `HR_Attrition_Dashboard_Screenshot.png`  
 - 📄 `HR_Employee_Attrition_Report.pdf`  
-
-
----
-
-# 🛒 Project 3 – E-commerce Return Rate Reduction Analysis  
-
-### 🔍 Overview  
-This project analyzes e-commerce product returns to identify patterns and causes behind product returns.  
-The insights help reduce return rates and improve **customer satisfaction**.
-
----
-
-### 🎯 Objectives  
-- Understand reasons for product returns.  
-- Identify categories and locations with high return rates.  
-- Recommend strategies to reduce return volume.  
-
----
-
-### 🧠 Tools & Techniques  
-| Tool | Purpose |
-|------|----------|
-| Power BI | Dashboard and Visualization |
-| Excel | Data preprocessing |
-| Python (optional) | Data cleaning & feature engineering |
-
----
-
-### 📊 Dashboard Highlights  
-- KPI Cards: Total Orders, Total Returns, Return Rate (%)  
-- Visuals:  
-  - Bar chart – Returns by Category  
-  - Pie chart – Return Reasons  
-  - Line chart – Monthly Trends  
-  - Map – Geographic Return Distribution  
-
----
-
-### 🔍 Insights  
-- High return rates in specific categories and regions.  
-- Top return reasons: Defective Items, Wrong Product, Quality Issues.  
-- Seasonal spikes in return volumes.  
-
----
-
-### ✅ Recommendations  
-- Focus on quality improvements in high-return categories.  
-- Improve packaging & logistics.  
-- Enhance product descriptions and size guides.  
-- Adjust return policies for high-return regions.  
-
----
-
-### 📦 Deliverables  
-- 📊 `E-commerce_Return_Rate_Analysis.pbix`  
-- 📄 `E-commerce_Return_Rate_Analysis_Report.docx`  
-- 📁 Dataset: `ecommerce_returns_synthetic_data.csv`  
-- 🖼 Dashboard Screenshot  
-
 
 ---
 
